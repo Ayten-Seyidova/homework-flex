@@ -1,0 +1,82 @@
+body {
+    background-image: url("../../img/concrete_seamless.png");
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-menu {
+    width: 75%;
+    margin: auto;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+}
+
+/* Header */
+
+header {
+    height: 90px;
+    margin-bottom: 40px;
+}
+
+header nav {
+    height: 90px;
+    box-shadow: 0 0 5px 0 gray;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+nav .container-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+
+.logo-name {
+    background-color: #4AAAA5;
+    width: 250px;
+    height: 90px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    line-height: 90px;
+    text-align: center;
+    transition: .2s all ease-in-out;
+}
+
+.logo-name:hover {
+    background-color: #507575;
+}
+
+/* Navbar */
+
+.navbar {
+    list-style: none;
+    font-size: 18px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 30px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #999;
+    transition: .2s all ease-in-out;
+}
+
+.nav-item a:hover {
+    color: rgb(95, 93, 93);
+}

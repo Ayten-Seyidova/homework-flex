@@ -1,0 +1,15 @@
+/* Footer */
+
+.footer-section {
+    margin-top: 40px;
+    background-color: #666;
+    border-top: 8px solid #4AAAA5;
+    height: 90px;
+    color: #ccc;
+    font-size: 12px;
+}
+
+.footer-section p {
+    line-height: 90px;
+    text-align: center;
+}

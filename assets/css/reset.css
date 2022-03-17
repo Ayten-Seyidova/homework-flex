@@ -128,6 +128,10 @@ q:after {
   content: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 table {
   border-spacing: 0;
   border-collapse: collapse;

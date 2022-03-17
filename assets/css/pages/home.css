@@ -1,0 +1,82 @@
+/* Main card */
+
+main {
+    min-height: calc(100vh - 228px); /* For sticky footer */
+}
+
+main section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 65%;
+}
+
+.main-card {
+    background-color: #fff;
+    padding: 30px;
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+    margin-bottom: 40px;
+    margin: 0 10px;
+}
+
+.head-text {
+    color: #4AAAA5;
+    font-weight: bold;
+    padding-bottom: 20px;
+    border-bottom: 2px solid lightgray;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card h1 {
+    font-size: 30px;
+}
+
+.card-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-body .card-img {
+    width: 200px;
+    height: 150px;
+    margin: 10px 25px 0 0;
+}
+
+.card-text {
+    display: block;
+    flex: 70%;
+    font-size: 18px;
+    color: #777;
+    line-height: 2;
+}
+
+/* Social */
+
+.social {
+    height: 200px;
+    flex: 25%;
+}
+
+.social h2 {
+    font-size: 22px;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social .social-item img {
+    width: 62px;
+    height: 62px;
+    display: block;
+    margin-right: 7px;
+}
+
+.social .social-item img:hover {
+    opacity: .8;
+}

@@ -1,0 +1,116 @@
+@media only screen and (max-width: 1150px) {
+    .main-card {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        height: 140px;
+    }
+
+    header nav {
+        height: 140px;
+    }
+
+    .container-menu {
+        width: 100%;
+    }
+
+    nav .container-menu {
+        flex-wrap: wrap;
+    }
+
+    .logo-name {
+        width: 100%;
+        height: 70px;
+        font-size: 30px;
+        line-height: 70px;
+    }
+
+    .navbar {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 70px;
+    }
+
+    .nav-item {
+        margin-left: 0;
+    }
+
+    .nav-item:not(:first-child) {
+        margin-left: 30px;
+    }
+
+    .card-body {
+        flex-wrap: wrap;
+    }
+
+    .card-body .card-img {
+        width: 100%;
+        height: 100%;
+        margin: 0 0 20px 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header {
+        height: 100px;
+    }
+
+    header nav {
+        height: 100px;
+    }
+
+    .logo-name {
+        height: 50px;
+        font-size: 22px;
+        line-height: 50px;
+    }
+
+    .navbar {
+        height: 50px;
+    }
+
+    .nav-item a {
+        font-size: 14px;
+    }
+
+    .card h1 {
+        font-size: 24px;
+    }
+
+    .card-text {
+        flex: 70%;
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    .social {
+        height: 160px;
+    }
+
+    .social h2 {
+        font-size: 15px;
+    }
+
+    .social .social-item img {
+        width: 40px;
+        height: 40px;
+        margin-right: 7px;
+    }
+
+    .portfolio-img {
+        width: 150px;
+        height: 110px;
+        margin-bottom: 20px;
+    }
+
+    .img-text {
+        bottom: 5px;
+        font-size: 14px;
+        padding: 10px;
+    }
+    
+}
